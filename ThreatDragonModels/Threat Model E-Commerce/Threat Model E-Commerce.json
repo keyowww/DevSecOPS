@@ -1,0 +1,45 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "",
+  "summary": {
+    "title": "Threat Model E-Commerce",
+    "owner": "Kaysan Ahmad Nawfal",
+    "description": "Sistem ini merupakan aplikasi manajemen toko online yang memfasilitasi Customer untuk melakukan pendaftaran, login, pemesanan, dan pembayaran, serta memungkinkan Admin untuk mengelola produk. Secara arsitektur, sistem menggunakan antarmuka Frontend yang berkomunikasi melalui API Gateway menuju berbagai layanan backend seperti Auth Service dan Order Service. Sistem juga terintegrasi dengan layanan pihak ketiga yaitu Payment Gateway untuk transaksi. Seluruh data pengguna dan pesanan disimpan di dalam Database terpusat, dengan menerapkan batas keamanan (Trust Boundary) yang memisahkan zona Internet, DMZ, dan Internal Network.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Ihsan Rabbani"
+      },
+      {
+        "name": "Rafi Nur Tsaqif Akhmad"
+      },
+      {
+        "name": "Affan Abdussalam"
+      },
+      {
+        "name": "Syech Abu"
+      },
+      {
+        "name": "Danish Aulia Irawan"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Sistem E-Commerce",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": ""
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "April Rustianto, M.Kom",
+    "threatTop": 0
+  }
+}
